@@ -1,5 +1,6 @@
 import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
+import MyLatestProjects from "../components/MyLatestProjects";
 import Navbar from "../components/Navbar";
 import SkillsAnimated from "../components/SkillsAnimated";
 
@@ -11,6 +12,7 @@ const Home = () => {
        <Banner></Banner>
        <AboutMe></AboutMe>
        <SkillsAnimated></SkillsAnimated>
+       <MyLatestProjects></MyLatestProjects>
         </div>
     );
 };
