@@ -1,6 +1,7 @@
+import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
 import Navbar from "../components/Navbar";
-// import SkillsAnimated from "../components/SkillsAnimated";
+import SkillsAnimated from "../components/SkillsAnimated";
 
 
 const Home = () => {
@@ -8,7 +9,8 @@ const Home = () => {
         <div>
          <Navbar></Navbar>
        <Banner></Banner>
-       {/* <SkillsAnimated></SkillsAnimated> */}
+       <AboutMe></AboutMe>
+       <SkillsAnimated></SkillsAnimated>
         </div>
     );
 };

@@ -9,16 +9,16 @@ const Banner = () => {
         <div className="grid  grid-cols-4 ">
 
         <div  className=" md:col-span-2  col-span-4    mt-20 "> 
-        <div className="text-2xl lg:text-4xl">
-        Hello This is MUNNA, I'm a Professional software Developer
+        <div className="text-2xl  md:text-4xl ">
+        Hello This is MUNNA, I'm a Professional Software Developer
         </div>
-      <div className="flex gap-4 mt-4 text-2xl">
+      <div className="flex gap-4  md:text-4xl mt-4 text-2xl">
       <FaGithub></FaGithub> <FaLinkedin></FaLinkedin> <FaFacebook></FaFacebook> <FaTwitter></FaTwitter>
       </div>
-      <div className="">
-       <p className="flex items-center ">CONTACT ME<MdContactPhone className="ml-2" /> </p>   
-       <p className="flex items-center">GET RESUME<FaDownload className="ml-2"></FaDownload> 
-       </p>
+      <div className=" flex gap-2 mt-4 ">
+       <button className="flex items-center border p-2 rounded-full  ">CONTACT ME<MdContactPhone className="ml-2" /> </button>   
+       <button className="flex items-center  border p-2 rounded-full">GET RESUME<FaDownload className="ml-2"></FaDownload> 
+       </button>
       </div>
           </div>
        <div className="md:col-span-2 col-span-4  "> <CodeDisplay></CodeDisplay></div>
