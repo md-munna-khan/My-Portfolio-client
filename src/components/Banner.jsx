@@ -1,36 +1,3 @@
-// import { FaDownload, FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-// import CodeDisplay from "./CodeDisplay";
-// import { MdContactPhone } from "react-icons/md";
-
-
-
-// const Banner = () => {
-//     return (
-//         <div className="grid  text-white grid-cols-4 ">
-
-//         <div  className=" md:col-span-2 lg:space-y-12 w-2/3  col-span-4    mt-20 "> 
-//         <div className="text-2xl   md:text-5xl ">Hello!
-//        <span className="text-green-400">  I'm MUNNA, </span>  I'm a Professional Software Developer
-//         </div>
-//       <div className="flex gap-4  md:text-4xl mt-4 text-2xl">
-//       <FaGithub></FaGithub> <FaLinkedin></FaLinkedin> <FaFacebook></FaFacebook> <FaTwitter></FaTwitter>
-//       </div>
-//       <div className=" flex gap-2 mt-4 ">
-//        <a href="#contact" className="flex items-center border lg:p-2 rounded-full  ">CONTACT ME<MdContactPhone className="ml-2" /> </a>   
-//        <button className="flex items-center  bg-green-500 border  lg:p-2 rounded-full">GET RESUME<FaDownload className="ml-2"></FaDownload> 
-//        </button>
-//       </div>
-//           </div>
-//        <div className="md:col-span-2 col-span-4  "> <CodeDisplay></CodeDisplay></div>
-//         </div>
-
-
-//     );
-// };
-
-// export default Banner;
-
-
 
 
 import { FaDownload, FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
@@ -39,12 +6,12 @@ import CodeDisplay from "./CodeDisplay";
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 text-white">
+    <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 text-white">
 
       {/* Left Section - Text and Social Media Links */}
-      <div className="md:col-span-2 lg:space-y-12 space-y-6 mt-20 text-center md:text-left">
+      <div className="col-span-4 md:col-span-2 w-full  lg:space-y-12 space-y-6 mt-20 text-center md:text-left">
         <div className="text-2xl md:text-5xl">
-          Hello! <span className="text-green-400">I'm MUNNA,</span> I'm a Professional Software Developer
+          Hello! <span className="text-green-400">I'm MUNNA,</span> I'm a Professional Web Developer
         </div>
 
         {/* Social Media Icons */}
@@ -84,16 +51,17 @@ const Banner = () => {
         </div>
 
         {/* Contact and Resume Button */}
-        <div className="flex justify-center md:justify-start gap-4 mt-6">
+        <div className=" inline-flex justify-center md:justify-center   gap-4 mt-6">
           <a
             href="#contact"
-            className="flex items-center border border-green-500 lg:p-3 p-2 rounded-full hover:bg-green-500 transition duration-300"
+            className=" items-center border  border-green-500 lg:p-3 inline-flex 
+             rounded-full text-sm px-3 py-2 hover:bg-green-500 transition duration-300"
           >
             CONTACT ME <MdContactPhone className="ml-2" />
           </a>
-          <button className="flex items-center bg-green-500 border lg:p-3 p-2 rounded-full hover:bg-green-600 transition duration-300">
+          <p className="inline-flex text-sm px-3 py-2  items-center  bg-green-500 border md:p-2 lg:p-3  rounded-full hover:bg-green-600 transition duration-300">
             GET RESUME <FaDownload className="ml-2" />
-          </button>
+          </p>
         </div>
       </div>
 

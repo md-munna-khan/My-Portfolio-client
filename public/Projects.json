@@ -6,7 +6,7 @@
     "description": "Embark on a thrilling journey through the world's largest tropical rainforest.",
     "live": "https://mountain-projects.web.app",
     "technologiesUsed": ["React", "Firebase", "Tailwind CSS", "AOS (Animate on Scroll)"],
-    "keyLearningsImprovements": "Enhanced design using animations with AOS and learned to implement secure Firebase rules for real-time data."
+    "keyLearningsImprovements": "Enhanced design using animations with AOS, significantly improving user engagement. Gained practical experience in setting up secure Firebase rules to protect real-time data. Learned to optimize components for performance and ensure accessibility compliance in dynamic content."
   },
   {
     "id": "2",
@@ -14,8 +14,8 @@
     "image": "https://i.ibb.co.com/Xt476tw/Home-Abroad-University-01-04-2025-09-23-PM.png",
     "description": "Learn about the best universities abroad and their unique programs.",
     "live": "https://harvard-university-11.netlify.app",
-    "technologiesUsed": ["React", "Bootstrap", "Netlify", "React Router"],
-    "keyLearningsImprovements": "Improved SPA routing and responsiveness using React Router and Bootstrap, ensuring a smooth user experience."
+    "technologiesUsed": ["React", "tailwind", "firebase", "React Router", "mongodb"],
+    "keyLearningsImprovements": "Improved SPA routing and responsiveness using React Router and Bootstrap, ensuring a smooth user experience. Learned to deploy and debug projects on Netlify for faster iteration. Mastered creating scalable UI components that adapt seamlessly across all devices while maintaining design consistency."
   },
   {
     "id": "3",
@@ -24,8 +24,6 @@
     "description": "Dive into the world of Marvel movies and explore their epic storytelling.",
     "live": "https://marvel-movies-pro.netlify.app",
     "technologiesUsed": ["React", "Firebase", "React Simple Star Rating", "Netlify"],
-    "keyLearningsImprovements": "Developed dynamic star rating functionality and mastered React Router for multi-page navigation."
+    "keyLearningsImprovements": "Developed dynamic star rating functionality, improving the interactivity of user reviews. Mastered React Router for seamless multi-page navigation and learned to handle dynamic paths for better scalability. Gained hands-on experience in Firebase authentication and integrating a secure backend to manage user data effectively."
   }
 ]
-
-  

@@ -36,7 +36,7 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl font-bold ">Contact Me</h2>
+          <h2 className="text-3xl font-bold  text-green-500">Contact Me</h2>
           <div className="mt-2 h-1 w-20 bg-blue-600 mx-auto"></div>
         </motion.div>
 
@@ -48,7 +48,7 @@ export default function Contact() {
             transition={{ duration: 0.5 }}
             className="space-y-6"
           >
-            <h3 className="text-xl font-semibold ">Get in Touch</h3>
+            <h3 className="text-xl text-green-500 font-semibold ">Get in Touch</h3>
             <p className="">
               Feel free to reach out if you're looking for a developer, have a
               question, or just want to connect.

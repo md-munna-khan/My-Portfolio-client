@@ -1,5 +1,4 @@
 
-
 import { useEffect } from "react";
 import Prism from "prismjs";
 import "prismjs/themes/prism-tomorrow.css"; 
@@ -9,7 +8,7 @@ const CodeDisplay = () => {
   const codeSnippet = `
   const profile = {
       name: 'Munna',
-      title: 'Full-Stack Developer | Cloud Enthusiast | Problem Solver',
+      title: 'Frontend Developer | Cloud Enthusiast | Problem Solver',
       skills: [
           'Html','Css','React',  'Express','Tailwind',
           'MongoDB', 'Git',  'Discord Development'  

@@ -20,7 +20,7 @@ const SkillsAnimated = () => {
 
     return (
         <div id="skills" className="py-10  bg-slate-800 ">
-            <h2 className="text-4xl text-white font-bold text-center  ">My Skills</h2>
+            <h2 className="text-4xl text-green-500 font-bold text-center  ">My Skills</h2>
             <Marquee pauseOnHover={true} speed={80}>  <div className="
             flex gap-8   p-4">
            {skills.map((skill, index) => (
