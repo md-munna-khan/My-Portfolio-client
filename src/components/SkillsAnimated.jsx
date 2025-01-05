@@ -19,7 +19,7 @@ const SkillsAnimated = () => {
     ];
 
     return (
-        <div className="py-10 bg-slate-800 ">
+        <div id="skills" className="py-10  bg-slate-800 ">
             <h2 className="text-4xl text-white font-bold text-center  ">My Skills</h2>
             <Marquee pauseOnHover={true} speed={80}>  <div className="
             flex gap-8   p-4">

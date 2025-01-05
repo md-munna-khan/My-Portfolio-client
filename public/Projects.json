@@ -1,24 +1,31 @@
 [
-    {
-      "id": "1",
-      "title": "Exploring the Amazon Rainforest",
-      "image": "https://i.ibb.co.com/P957jYM/Home-Mountain-Treks-01-04-2025-08-28-PM.png",
-      "description": "Embark on a thrilling journey through the world's largest tropical rainforest.",
-      "Live":"https://mountain-projects.web.app"
-    },
-    {
-      "id": "2",
-      "title": "Discovering Top Universities Abroad",
-      "image": "https://i.ibb.co.com/Xt476tw/Home-Abroad-University-01-04-2025-09-23-PM.png",
-      "description": "Learn about the best universities abroad and their unique programs.",
-      "Live":"https://harvard-university-11.netlify.app"
-    },
-    {
-      "id": "3",
-      "title": "Marvel Movies: A Cinematic Universe",
-      "image": "https://i.ibb.co.com/9cXTvbN/Home-Marvel-Movies-01-04-2025-09-11-PM.png",
-      "description": "Dive into the world of Marvel movies and explore their epic storytelling.",
-       "Live":"https://marvel-movies-pro.netlify.app"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Exploring the Amazon Rainforest",
+    "image": "https://i.ibb.co.com/P957jYM/Home-Mountain-Treks-01-04-2025-08-28-PM.png",
+    "description": "Embark on a thrilling journey through the world's largest tropical rainforest.",
+    "live": "https://mountain-projects.web.app",
+    "technologiesUsed": ["React", "Firebase", "Tailwind CSS", "AOS (Animate on Scroll)"],
+    "keyLearningsImprovements": "Enhanced design using animations with AOS and learned to implement secure Firebase rules for real-time data."
+  },
+  {
+    "id": "2",
+    "title": "Discovering Top Universities Abroad",
+    "image": "https://i.ibb.co.com/Xt476tw/Home-Abroad-University-01-04-2025-09-23-PM.png",
+    "description": "Learn about the best universities abroad and their unique programs.",
+    "live": "https://harvard-university-11.netlify.app",
+    "technologiesUsed": ["React", "Bootstrap", "Netlify", "React Router"],
+    "keyLearningsImprovements": "Improved SPA routing and responsiveness using React Router and Bootstrap, ensuring a smooth user experience."
+  },
+  {
+    "id": "3",
+    "title": "Marvel Movies: A Cinematic Universe",
+    "image": "https://i.ibb.co.com/9cXTvbN/Home-Marvel-Movies-01-04-2025-09-11-PM.png",
+    "description": "Dive into the world of Marvel movies and explore their epic storytelling.",
+    "live": "https://marvel-movies-pro.netlify.app",
+    "technologiesUsed": ["React", "Firebase", "React Simple Star Rating", "Netlify"],
+    "keyLearningsImprovements": "Developed dynamic star rating functionality and mastered React Router for multi-page navigation."
+  }
+]
+
   

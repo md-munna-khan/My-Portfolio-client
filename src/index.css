@@ -4,7 +4,8 @@
 
 @layer utilities{
     .specialGradient{
-        background: linear-gradient(to right, #23e41c, #1dc225);
+        background: linear-gradient(to right, #534949, #050505);
+        /* background: linear-gradient( #242524); */
     }
    
 }
