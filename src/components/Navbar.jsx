@@ -5,6 +5,7 @@ import { MdMenuBook } from "react-icons/md";
 import { FaWindowClose } from "react-icons/fa";
 import { useState } from "react";
 
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -43,6 +44,7 @@ const Navbar = () => {
             <p className="hover:text-green-400" onClick={toggleMenu}>EDUCATION</p>
             <a href="#projects" className="hover:text-green-400" onClick={toggleMenu}>PROJECTS</a>
             <FaWindowClose size={28} onClick={toggleMenu} className="cursor-pointer text-red-500" />
+         
           </div>
         </div>
       )}

@@ -3,6 +3,7 @@
 import { FaDownload, FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { MdContactPhone } from "react-icons/md";
 import CodeDisplay from "./CodeDisplay";
+import { IoMdDownload } from "react-icons/io";
 
 const Banner = () => {
   return (
@@ -59,9 +60,17 @@ const Banner = () => {
           >
             CONTACT ME <MdContactPhone className="ml-2" />
           </a>
-          <p className="inline-flex text-sm px-3 py-2  items-center  bg-green-500 border md:p-2 lg:p-3  rounded-full hover:bg-green-600 transition duration-300">
+          {/* <p className="inline-flex text-sm px-3 py-2  items-center  bg-green-500 border md:p-2 lg:p-3  rounded-full hover:bg-green-600 transition duration-300">
             GET RESUME <FaDownload className="ml-2" />
-          </p>
+          </p> */}
+             <a
+            href="/munna-resume.pdf"
+            download="/munna-resume.pdf"
+             className=" items-center border  border-green-500 lg:p-3 inline-flex 
+             rounded-full text-sm px-3 py-2 hover:bg-green-500 transition duration-300"
+          >
+            RESUME <IoMdDownload />
+          </a>
         </div>
       </div>
 
