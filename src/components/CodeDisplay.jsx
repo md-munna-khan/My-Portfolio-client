@@ -10,8 +10,10 @@ const CodeDisplay = () => {
       name: 'Munna',
       title: 'Frontend Developer | Cloud Enthusiast | Problem Solver',
       skills: [
-          'Html','Css','React',  'Express','Tailwind',
-          'MongoDB', 'Git',  'Discord Development'  
+            'Html', 'Css', 'React', 'Express', 'Tailwind',
+          'MongoDB', 'Git', 'Discord Development', 
+          'JavaScript', 'Node.js', 'Firebase', 'GitHub',
+          'Next.js'  
       ],
       hardWorker: true,
       quickLearner: true,
@@ -20,8 +22,8 @@ const CodeDisplay = () => {
           return (
               this.hardWorker &&
               this.problemSolver &&
-              this.skills.length >= 5 &&
-              this.yearsOfExperience >= 3
+              this.skills.length >= 1 &&
+              this.yearsOfExperience >= 2
           );
       }
   };
