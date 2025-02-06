@@ -1,21 +1,25 @@
 [
   {
     "id": "1",
-    "title": "Exploring the Amazon Rainforest",
-    "image": "https://i.ibb.co.com/P957jYM/Home-Mountain-Treks-01-04-2025-08-28-PM.png",
-    "description": "Embark on a thrilling journey through the world's largest tropical rainforest.",
-    "live": "https://mountain-projects.web.app",
-    "technologiesUsed": ["React", "Firebase", "Tailwind CSS", "AOS (Animate on Scroll)"],
-    "keyLearningsImprovements": "Enhanced design using animations with AOS, significantly improving user engagement. Gained practical experience in setting up secure Firebase rules to protect real-time data. Learned to optimize components for performance and ensure accessibility compliance in dynamic content."
+    "title": "Job Heaven",
+    "image": "https://i.ibb.co.com/WN0YF5ws/Job-Heaven-Home-02-06-2025-11-24-AM.png",
+    "description": "A job portal connecting job seekers with top employers.",
+    "live": "https://job-heaven-12.netlify.app",
+    "githubRepo": "https://github.com/md-munna-khan/job-heaven-client-side",
+    "technologiesUsed": ["React", "Firebase", "Tailwind CSS", "MongoDB", "Express", "AOS (Animate on Scroll)"],
+    "challengesFaced": "Ensuring real-time data security with Firebase rules and optimizing performance for smooth animations.",
+    "futurePlans": "Enhancing the user dashboard with analytics and implementing AI-based job recommendations."
   },
   {
     "id": "2",
-    "title": "Discovering Top Universities Abroad",
+    "title": "Harvard University",
     "image": "https://i.ibb.co.com/Xt476tw/Home-Abroad-University-01-04-2025-09-23-PM.png",
     "description": "Learn about the best universities abroad and their unique programs.",
     "live": "https://harvard-university-11.netlify.app",
-    "technologiesUsed": ["React", "tailwind", "firebase", "React Router", "mongodb"],
-    "keyLearningsImprovements": "Improved SPA routing and responsiveness using React Router and Bootstrap, ensuring a smooth user experience. Learned to deploy and debug projects on Netlify for faster iteration. Mastered creating scalable UI components that adapt seamlessly across all devices while maintaining design consistency."
+    "githubRepo": "https://github.com/md-munna-khan/Harvard-University-Frontend",
+    "technologiesUsed": ["React", "Tailwind CSS", "Firebase", "React Router", "MongoDB"],
+    "challengesFaced": "Optimizing SPA routing for seamless navigation and ensuring design consistency across devices.",
+    "futurePlans": "Adding user authentication for a personalized experience and implementing a course recommendation system."
   },
   {
     "id": "3",
@@ -23,7 +27,9 @@
     "image": "https://i.ibb.co.com/9cXTvbN/Home-Marvel-Movies-01-04-2025-09-11-PM.png",
     "description": "Dive into the world of Marvel movies and explore their epic storytelling.",
     "live": "https://marvel-movies-pro.netlify.app",
+    "githubRepo": "https://github.com/md-munna-khan/Marvel-Movies-Frontend",
     "technologiesUsed": ["React", "Firebase", "React Simple Star Rating", "Netlify"],
-    "keyLearningsImprovements": "Developed dynamic star rating functionality, improving the interactivity of user reviews. Mastered React Router for seamless multi-page navigation and learned to handle dynamic paths for better scalability. Gained hands-on experience in Firebase authentication and integrating a secure backend to manage user data effectively."
+    "challengesFaced": "Implementing dynamic star ratings and ensuring secure user authentication.",
+    "futurePlans": "Introducing a community review section and integrating API-based real-time movie data updates."
   }
 ]

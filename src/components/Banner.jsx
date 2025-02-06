@@ -7,7 +7,7 @@ import { IoMdDownload } from "react-icons/io";
 
 const Banner = () => {
   return (
-    <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 text-white">
+    <div className="grid items-center  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 text-white">
 
       {/* Left Section - Text and Social Media Links */}
       <div className="col-span-4 md:col-span-2 w-full  lg:space-y-12 space-y-6 mt-20 text-center md:text-left">
@@ -64,8 +64,8 @@ const Banner = () => {
             GET RESUME <FaDownload className="ml-2" />
           </p> */}
              <a
-            href="/munna-resume.pdf"
-            download="/munna-resume.pdf"
+            href="/munna-resume1.pdf"
+            download="/munna-resume1.pdf"
              className=" items-center border  border-green-500 lg:p-3 inline-flex 
              rounded-full text-sm px-3 py-2 hover:bg-green-500 transition duration-300"
           >

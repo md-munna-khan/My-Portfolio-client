@@ -14,9 +14,9 @@ const AboutMe = () => {
       <div className="col-span-1" data-aos="fade-up">
         <h1 className="text-center text-green-500 my-10  text-3xl lg:text-3xl">---ABOUT ME---</h1>
       </div>
-      <div className="grid grid-cols-4 gap-4 text-white space-y-4 my-10">
+      <div className="grid grid-cols-4 items-center  gap-4 text-white space-y-4 my-10">
         {/* Text Section with fade-up */}
-        <div className="   md:col-span-2 text-center md:text-left col-span-4" data-aos="fade-up">
+        <div className="   md:col-span-2 text-center    md:text-left col-span-4" data-aos="fade-up">
           <h1 className="text-2xl text-green-500">WHO I AM?</h1>
           <p className="pt-4">
             "I’m Munna, a Frontend developer passionate about creating seamless web applications. With a solid foundation in JavaScript and a love for exploring new frameworks and tools, I work on both the front-end and back-end to deliver innovative and user-friendly solutions. I’m always open to new projects and job opportunities that help me grow as a developer."
@@ -37,3 +37,5 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+
+

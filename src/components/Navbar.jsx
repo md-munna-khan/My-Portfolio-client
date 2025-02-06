@@ -1,6 +1,6 @@
 
 
-import logo from '../assets/logo.jpg'
+import logo from '../assets/logo.png'
 import { MdMenuBook } from "react-icons/md";
 import { FaWindowClose } from "react-icons/fa";
 import { useState } from "react";
@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className="flex justify-between items-center px-4 py-4 sticky  top-0 z-50 backdrop-blur-lg bg-gray-800 bg-opacity-50 text-white">
       {/* Logo */}
       <div>
-        <img className="w-12 h-8" src={logo} alt="Logo" />
+        <img className="w-18 h-10 ml-2 object-cover" src={logo} alt="Logo" />
       </div>
 
       {/* Desktop Navigation */}
