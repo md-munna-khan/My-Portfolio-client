@@ -27,7 +27,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 text-white">
+    <section id="contact" className="py-20 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -85,7 +85,7 @@ export default function Contact() {
                   type="text"
                   id="name"
                   name="form_name"
-                  className="mt-1 block p-2 w-full rounded-md  shadow-sm   border-white bg-gray-400"
+                  className="mt-1 block p-2 w-full rounded-md  shadow-sm   border-white bg-gray-200"
                   required
                 />
               </div>
@@ -97,7 +97,7 @@ export default function Contact() {
                   type="email"
                   id="email"
                   name="form_email"
-                  className="mt-1 p-2 block w-full border-white bg-gray-400 rounded-md shadow-sm  "
+                  className="mt-1 p-2 block w-full border-white bg-gray-200 rounded-md shadow-sm  "
                   required
                 />
               </div>
@@ -109,7 +109,7 @@ export default function Contact() {
                   id="message"
                   name="message"
                   rows={4}
-                  className="mt-1 block w-full p-2 border-white bg-gray-400  rounded-md  "
+                  className="mt-1 block w-full p-2 border-white bg-gray-200  rounded-md  "
                   required
                 />
               </div>
@@ -117,7 +117,7 @@ export default function Contact() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 type="submit"
-                className="inline-flex bg-green-500 rounded-lg items-center px-6 py-3 transition-colors"
+                className="inline-flex bg-green-500 text-white rounded-lg items-center px-6 py-3 transition-colors"
                 disabled={status === "sending"}
               >
                 <Send className="w-5 h-5 mr-2" />

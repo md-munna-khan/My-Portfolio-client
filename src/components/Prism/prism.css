@@ -1,0 +1,43 @@
+/* Background Color */
+pre[class*="language-"] {
+    background: #1e293b !important; /* Custom Dark Blue */
+    color: #f8fafc !important; /* Light White */
+    border-radius: 8px;
+  }
+  
+  /* Keyword Colors */
+  .token.keyword {
+    color: #ff7a45 !important; /* Bright Orange */
+  }
+  
+  /* Function Names */
+  .token.function {
+    color: #38bdf8 !important; /* Sky Blue */
+  }
+  
+  /* Strings */
+  .token.string {
+    color: #22c55e !important; /* Green */
+  }
+  
+  /* Comments */
+  .token.comment {
+    color: #94a3b8 !important; /* Soft Gray */
+    font-style: italic;
+  }
+  
+  /* Variables */
+  .token.variable {
+    color: #facc15 !important; /* Yellow */
+  }
+  
+  /* Numbers */
+  .token.number {
+    color: #f472b6 !important; /* Pink */
+  }
+  
+  /* Operators */
+  .token.operator {
+    color: #c084fc !important; /* Purple */
+  }
+  

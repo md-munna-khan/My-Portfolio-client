@@ -2,18 +2,33 @@
 
 import { FaDownload, FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { MdContactPhone } from "react-icons/md";
-import CodeDisplay from "./CodeDisplay";
-import { IoMdDownload } from "react-icons/io";
 
+import { IoMdDownload } from "react-icons/io";
+import myimage from '../assets/my_img-removebg-preview.png'
+import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
 const Banner = () => {
   return (
-    <div className="grid items-center  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 text-white">
+    <div className="grid items-center  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 ">
 
       {/* Left Section - Text and Social Media Links */}
       <div className="col-span-4 md:col-span-2 w-full  lg:space-y-12 space-y-6 mt-20 text-center md:text-left">
-        <div className="text-2xl md:text-5xl">
-          Hello! <span className="text-green-400">I'm MUNNA,</span> I'm a Professional Web Developer
-        </div>
+      <h1 className=" text-2xl md:text-4xl"> Hello I'm Munna</h1>
+  <div className="text-green-500">
+  
+  <TypeAnimation 
+  className="text-2xl md:text-4xl font-bold"
+  sequence={[
+    
+    "A Frontend Web Developer", 1000,
+    "A MERN Stack Developer", 1000,
+  ]}
+  wrapper="span"
+  speed={50}
+  repeat={Infinity}
+/>
+  </div>
+      
 
         {/* Social Media Icons */}
         <div className="flex justify-center md:justify-start gap-4 text-2xl md:text-4xl">
@@ -75,11 +90,30 @@ const Banner = () => {
       </div>
 
       {/* Right Section - Code Display */}
-      <div className="md:col-span-2 lg:col-span-2 col-span-4">
-        <CodeDisplay />
+      <div className="md:col-span-2 lg:col-span-2 col-span-4 pt-8">
+{/* Animated Border Circle */}
+                  <div className="relative md:w-[600px] md:h-[600px] h-[300px] w-[300px] rounded-full shadow-2xl mx-auto flex justify-center items-center">
+                    <motion.div
+                      animate={{ rotate: 360 }}
+                      transition={{
+                        duration: 5,
+                        repeat: Infinity,
+                        ease: "linear",
+                      }}
+                      className="absolute w-full h-full border-t-4 border-b-4 border-green-500 rounded-full"
+                    ></motion.div>
+                    <img
+                      className="md:w-[400px] md:h-[400px] h-[200px] relative z-10"
+                      src={myimage}
+                      alt="html"
+                    />
+                  </div>  
+                  
       </div>
     </div>
   );
 };
 
 export default Banner;
+
+

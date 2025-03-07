@@ -6,6 +6,7 @@ import React, { useEffect, useState } from "react";
 import "aos/dist/aos.css"; // Import AOS styles
 import AOS from "aos";
 import { Link } from "react-router-dom";
+import { BorderBeam } from "@stianlarsen/border-beam";
 
 const MyLatestProjects = () => {
   const [myProjects, setMyProjects] = useState([]);
@@ -23,12 +24,15 @@ const MyLatestProjects = () => {
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {myProjects.map((project) => (
           <div
-            className="border rounded-lg overflow-hidden bg-gray-800 shadow-lg hover:shadow-xl transition-shadow duration-300"
+            className="border  relative  rounded-lg overflow-hidden bg-gray-800 shadow-lg hover:shadow-xl transition-shadow duration-300"
             key={project.id}
             data-aos="fade-up" // Apply fade-up animation
           >
+       
+      <BorderBeam colorFrom="yellow" borderWidth="5" colorTo="green" size={700} duration={10} />
+ 
             <img
-              className="w-full h-64 object-cover"
+              className="w-full h-64 object-cover p-1.5"
               src={project.image}
               alt={project.title}
               data-aos="zoom-in" // Apply zoom-in animation on image

@@ -14,14 +14,14 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center px-4 py-4 sticky  top-0 z-50 backdrop-blur-lg bg-gray-800 bg-opacity-50 text-white">
+    <div className="flex justify-between container mx-auto  md:px-5  my-4 items-center px-4 py-4 sticky  top-0 z-50 backdrop-blur-lg text-white rounded-md  bg-opacity-50 ">
       {/* Logo */}
       <div>
         <img className="w-18 h-10 ml-2 object-cover" src={logo} alt="Logo" />
       </div>
 
       {/* Desktop Navigation */}
-      <div className="hidden md:flex gap-4 text-lg">
+      <div className="hidden md:flex gap-6  text-lg">
         <a href="#about" className="hover:text-green-400">ABOUT</a>
         <p className="hover:text-green-400">EXPERIENCE</p>
         <a href="#skills" className="hover:text-green-400">SKILLS</a>
