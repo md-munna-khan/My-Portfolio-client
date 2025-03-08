@@ -27,14 +27,14 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 ">
+    <section id="contact" className="py-10 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-12"
+          className="text-center mb-8"
         >
           <h2 className="text-3xl font-bold  text-green-500">Contact Me</h2>
           <div className="mt-2 h-1 w-20 bg-blue-600 mx-auto"></div>

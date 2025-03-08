@@ -9,7 +9,7 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 const Banner = () => {
   return (
-    <div className="grid items-center  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 ">
+    <div className="grid items-center  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 overflow-hidden gap-8 px-4 ">
 
       {/* Left Section - Text and Social Media Links */}
       <div className="col-span-4 md:col-span-2 w-full  lg:space-y-12 space-y-6 mt-20 text-center md:text-left">
@@ -49,7 +49,7 @@ const Banner = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/munna-mia-9b43422b9/"
+            href="https://www.linkedin.com/in/munna-mia"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-700"
@@ -79,8 +79,8 @@ const Banner = () => {
             GET RESUME <FaDownload className="ml-2" />
           </p> */}
              <a
-            href="/munna-resume1.pdf"
-            download="/munna-resume1.pdf"
+            href="/public/Munna-Real Resume.pdf"
+            download="/public/Munna-Real Resume.pdf"
              className=" items-center border  border-green-500 lg:p-3 inline-flex 
              rounded-full text-sm px-3 py-2 hover:bg-green-500 transition duration-300"
           >
@@ -90,7 +90,7 @@ const Banner = () => {
       </div>
 
       {/* Right Section - Code Display */}
-      <div className="md:col-span-2 lg:col-span-2 col-span-4 pt-8">
+      <div className="md:col-span-2 lg:col-span-2  col-span-4 pt-8">
 {/* Animated Border Circle */}
                   <div className="relative md:w-[600px] md:h-[600px] h-[300px] w-[300px] rounded-full shadow-2xl mx-auto flex justify-center items-center">
                     <motion.div

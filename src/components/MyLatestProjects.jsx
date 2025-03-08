@@ -19,7 +19,7 @@ const MyLatestProjects = () => {
   }, []);
 
   return (
-    <div id="projects" className="my-10 px-4 text-white">
+    <div id="projects" className="my-10 px-4 overflow-hidden text-white">
       <h1 className="text-4xl font-bold uppercase text-green-500 pb-8 text-center">My Latest Projects</h1>
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {myProjects.map((project) => (

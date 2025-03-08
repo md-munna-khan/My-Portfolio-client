@@ -1,9 +1,10 @@
 
 
 import logo from '../assets/logo.png'
-import { MdMenuBook } from "react-icons/md";
+
 import { FaWindowClose } from "react-icons/fa";
 import { useState } from "react";
+import { IoMdMenu } from 'react-icons/io';
 
 
 const Navbar = () => {
@@ -14,14 +15,14 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between container mx-auto  md:px-5  my-4 items-center px-4 py-4 sticky  top-0 z-50 backdrop-blur-lg text-white rounded-md  bg-opacity-50 ">
+    <div className="flex justify-between container sticky  mx-auto  md:px-5  my-4 items-center px-4 py-4  top-0  z-50 backdrop-blur-lg text-white bg-gray-900  rounded-md  bg-opacity-80 ">
       {/* Logo */}
       <div>
         <img className="w-18 h-10 ml-2 object-cover" src={logo} alt="Logo" />
       </div>
 
       {/* Desktop Navigation */}
-      <div className="hidden md:flex gap-6  text-lg">
+      <div className="hidden md:flex  gap-6  text-lg">
         <a href="#about" className="hover:text-green-400">ABOUT</a>
         <p className="hover:text-green-400">EXPERIENCE</p>
         <a href="#skills" className="hover:text-green-400">SKILLS</a>
@@ -31,7 +32,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Icon */}
       <div className="md:hidden  flex items-center gap-4">
-        <MdMenuBook size={28} onClick={toggleMenu} className="cursor-pointer" />
+        <IoMdMenu  size={28} onClick={toggleMenu} className="cursor-pointer" />
       </div>
 
       {/* Mobile Menu */}
